@@ -10,15 +10,17 @@
 	font-family: "VNF-Comic Sans";
 }
 
+/*
 html,body
 {
 	width: 100%;
 	overflow-x: hidden; 
 }
+*/
 
 #content {
-	min-width: 1250px;
-	min-height: 1250px;
+	width: 99.1vw;
+/*	min-width: 1200px;*/
 }
 
 a {
@@ -43,21 +45,22 @@ ul {
 }
 
 #top_container {
-	line-height: 40px;
-	font-size: 10pt;
+	line-height: 2vw;
+	font-size: 0.7vw;
+	width: 99.1vw;
 }
 
 nav div ul {
-	width: auto;
-	height: 100%;
-	text-align: right;
-	margin-right: 8%;
+	width: 100vw;
+	height: 2vw;
+	text-align: left;
+	margin-left: 60%;
 }
 
 nav div ul li {
 	display: inline-block;
 	width: auto;
-	margin-left: 35px;
+	margin-left: 2vw;
 }
 
 nav div ul li a {
@@ -120,12 +123,11 @@ body{
 }
 
 .main_menu {
-	display: inline-block;
-	width: 85% !important;
-	overflow-x: hidden;
-	margin-left: 20%;
+	display: block;
+	width: 70% !important;
+	margin-left: 15%;
 	margin-right: 20%;
-	height: 72px;
+	height: 4vw;
 }
 
 .main_menu .image {
@@ -158,8 +160,9 @@ body{
 /*	border-bottom: 1px solid lightblue;*/
 /*	border-right: 1px solid lightblue;*/
 /*	border-top: 1px solid lightblue;*/
-	height: 72px;
+	height: 4vw;
 	background-color: mintcream;
+/*	width: 85% !important;*/
 /*	border-bottom-right-radius: 7px;*/
 /*	border-top-right-radius: 7px;*/
 }
@@ -177,7 +180,7 @@ body{
 }
 
 .top-nav ul.main li a{
-	margin-left: 25px;
+	margin-left: 1vw;
 }
 
 .top-nav .main li{
@@ -185,6 +188,7 @@ body{
 /*	vertical-align: top;*/
 	position: relative;
 	color: palegreen;
+	font-size: 1vw;
 }
 
 .top-nav .main .elements{
@@ -192,17 +196,17 @@ body{
 }
 
 .top-nav .main > li > a{
-	padding: 20px;
-	padding-left: 45px;
-	padding-right: 45px;
-	font-size: 14pt;
+	padding: 1.2vw;
+	padding-left: 3.5vw;
+	padding-right: 3.5vw;
+	font-size: 1vw;
 }
 
 .top-nav .dropdown{
 	position: absolute;
 /*	background-color: #rgb(74, 73, 73);*/
-	width: 222px;
-	left: 0;
+	width: 10vw;
+	left: 2.1vw;
 	display: none;
 }
 
@@ -217,7 +221,7 @@ body{
 }
 
 .top-nav .dropdown ul{
-	left: 253px;
+	left: 11.1vw;
 	top: 0;
 }
 
@@ -225,13 +229,13 @@ body{
 	text-align: center;
 	outline: 1px solid lightblue;
 	background-color: white;
-	padding-right: 30px;
+	padding-right: 1vw;
 	background-clip: padding-box;
 }
 
 .top-nav .dropdown li a{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 0.3vw;
+	padding-bottom: 0.3vw;
 }
 
 .top-nav .main li:hover > a{
@@ -242,19 +246,18 @@ body{
     background:#F00 url('images/advising.png') no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 750px;
+	width: 100vw;
 }
 
 #upcoming_classes {
 	background:#F00 url('images/tutoring.png') no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 750px;
-	
+	width: 100vw;
 }
 
 #why_adviselah {
-	;
+	
 }
 
 #upcoming_events {
