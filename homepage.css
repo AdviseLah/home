@@ -234,8 +234,8 @@ body{
 }
 
 .top-nav .dropdown li a{
-	padding-top: 0.6vw;
-	padding-bottom: 0.6vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
 }
 
 .top-nav .main li:hover > a{
