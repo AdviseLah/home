@@ -121,7 +121,8 @@ body{
 
 .main_menu {
 	display: inline-block;
-	width: 85%;
+	width: 85% !important;
+	overflow-x: hidden;
 	margin-left: 20%;
 	margin-right: 20%;
 	height: 72px;
@@ -207,7 +208,7 @@ body{
 
 .top-nav .dropdown li,
 .top-nav .dropdown ul li{
-	disiplay: block;
+	display: block;
 	width: 100%;
 }
 
