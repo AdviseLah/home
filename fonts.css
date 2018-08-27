@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'VNF-Comic Sans';
+    src: url('VNF-ComicSans.woff') format('woff'),
+		url('VNF-ComicSans.woff2') format('woff2'),
+		url('VNF-ComicSans.ttf') format('truetype'),
+		url('VNF-ComicSans.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
