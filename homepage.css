@@ -17,7 +17,7 @@ html,body
 }
 
 #content {
-	width: 99.1vw;
+	width: 100vw;
 /*	min-width: 1200px;*/
 }
 
@@ -45,7 +45,7 @@ ul {
 #top_container {
 	line-height: 2vw;
 	font-size: 0.7vw;
-	width: 99.1vw;
+	width: 100vw;
 }
 
 nav div ul {
