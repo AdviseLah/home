@@ -1,0 +1,16 @@
+/* @charset "utf-8"; */
+/* CSS Document */
+.circle {
+    display: table-cell;
+    height: 500px;
+ /*change this and the width for the size of your initial circle*/
+    width: 500px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+  /*make it pretty*/
+    background: #FF8C00;
+    color: #000;
+    font: 18px "josefin sans", arial;
+  /*change this for font-size and font-family*/
+}
